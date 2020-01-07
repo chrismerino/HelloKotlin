@@ -2,22 +2,23 @@
 
     fun main(){
 
-        print("Hello Kotlin")
 
-        serie()
+        fibonacciSequence()
     }
 
-    fun serie(){
+    fun fibonacciSequence(){
 
-        var numeroUno = 0
-        var numeroDos = 1
-        var sumaTotal: Int? = null
+        var numberA = 0
+        var numberB = 1
+        var total = 0
 
         for (i in 1 .. 18) {
-            sumaTotal = numeroUno + numeroDos
-            println("$sumaTotal")
-            numeroDos++
-            numeroUno++
-        }
 
+
+            total = numberA + numberB
+            println(total)
+            numberA = numberB
+            numberB = total
+
+        }
     }
