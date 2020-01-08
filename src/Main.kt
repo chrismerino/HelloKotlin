@@ -2,8 +2,11 @@
 
     fun main(){
 
+        var manzana = Fruta("Rojo", "Dulce", 4)
 
-        fibonacciSequence()
+        println("El color de la Manzana es ${manzana.color}")
+
+        // fibonacciSequence()
     }
 
     fun fibonacciSequence(){
